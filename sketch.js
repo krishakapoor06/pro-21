@@ -4,7 +4,7 @@ var speed, weight, thickness;
 function setup() {
   createCanvas(1600,400);
   bullet = createSprite(50, 200, 40, 20);
-  bullet.shapeColour ("white")
+  bullet.shapeColour "white"
   wall = createSprite(1200, 200, thickness, height/2);
   wall.shapeColour = (80,80,80)
 speed=random(223,321)
